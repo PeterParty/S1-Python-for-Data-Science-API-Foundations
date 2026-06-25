@@ -34,3 +34,4 @@ Function requirement:
 
 # Bibliografie
 - [Building a Machine Learning API in 15 Minutes | Coding Challenge](https://www.youtube.com/watch?v=C82lT9cWQiA)
+- [Loan Approval Classification Dataset](https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data)
