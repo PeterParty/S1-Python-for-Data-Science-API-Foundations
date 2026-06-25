@@ -5,6 +5,7 @@
 - Understand how ML models are exposed in production
 - Learn REST APIs and containerization basics
 - Introduce software engineering discipline (structure, logging, validation)
+
 # Practice Project - Production - Style ML Scoring API
 
 Function requirement:
