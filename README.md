@@ -26,7 +26,11 @@ Function requirement:
   "risk_category": "LOW"
 }
 `
+## Modul de creare a *python environment*
+`python -m venv .s1_venv`
 
+## Activare *envirenment*
+`.\.s1_venv\Scripts\activate`
 
 # Bibliografie
 - [Building a Machine Learning API in 15 Minutes | Coding Challenge](https://www.youtube.com/watch?v=C82lT9cWQiA)
