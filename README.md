@@ -32,6 +32,15 @@ Function requirement:
 ## Activare *envirenment*
 `.\.s1_venv\Scripts\activate`
 
+### Technical Requirements
+- [x] Use Pydanic models
+- [] Input validation
+- [] Error handiling (invalid input)
+- [] Envirement variables for config
+- [] Dockerzied application
+- [] Requirements.txt
+- [x] README.md
+
 # Bibliografie
 - [Building a Machine Learning API in 15 Minutes | Coding Challenge](https://www.youtube.com/watch?v=C82lT9cWQiA)
 - [Loan Approval Classification Dataset](https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data)
