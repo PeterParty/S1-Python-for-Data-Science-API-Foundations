@@ -34,11 +34,11 @@ Function requirement:
 
 ### Technical Requirements
 - [x] Use Pydanic models
-- [] Input validation
-- [] Error handiling (invalid input)
-- [] Envirement variables for config
-- [] Dockerzied application
-- [] Requirements.txt
+- [ ] Input validation
+- [ ] Error handiling (invalid input)
+- [ ] Envirement variables for config
+- [ ] Dockerzied application
+- [ ] Requirements.txt
 - [x] README.md
 
 # Bibliografie
