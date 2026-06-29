@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from models import User_input
-
+# todo: Adaug in docker fastapi si celelelalte librari
 app = FastAPI()
 
 # class User_input(BaseModel):
