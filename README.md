@@ -37,8 +37,8 @@ Function requirement:
 - [ ] Input validation
 - [ ] Error handiling (invalid input)
 - [ ] Envirement variables for config
-- [ ] Dockerzied application
-- [ ] Requirements.txt
+- [x] Dockerzied application
+- [x] Requirements.txt
 - [x] README.md
 
 # Bibliografie

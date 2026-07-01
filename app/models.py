@@ -5,3 +5,7 @@ class User_input(BaseModel):
     income :int
     loan_ammount:int
     credit_score:int
+
+class User_output(BaseModel):
+    risk_score: int
+    risk_category:str

@@ -6,8 +6,8 @@
 
 # Want to help us make this template better? Share your feedback here: https://forms.gle/ybq9Krt8jtBL3iCk7
 
-ARG PYTHON_VERSION=3.12.10
-FROM python:${PYTHON_VERSION}-slim as base
+ARG PYTHON_VERSION=3.14.2
+FROM python:${PYTHON_VERSION}-slim AS base
 
 # Prevents Python from writing pyc files.
 ENV PYTHONDONTWRITEBYTECODE=1
@@ -48,4 +48,4 @@ COPY . .
 EXPOSE 8000
 
 # Run the application.
-CMD fastapi dev
+CMD fastapi run ./app/main.py
