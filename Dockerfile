@@ -6,8 +6,8 @@
 
 # Want to help us make this template better? Share your feedback here: https://forms.gle/ybq9Krt8jtBL3iCk7
 
-ARG PYTHON_VERSION=3.14.2
-FROM python:${PYTHON_VERSION}-slim AS base
+ARG PYTHON_VERSION=3.12.10
+FROM python:${PYTHON_VERSION}-slim as base
 
 # Prevents Python from writing pyc files.
 ENV PYTHONDONTWRITEBYTECODE=1
@@ -48,4 +48,4 @@ COPY . .
 EXPOSE 8000
 
 # Run the application.
-CMD ["fastapi","run","./app/main.py"]
+CMD uvicorn '.venv_py3.12.Lib.site-packages.httpx._transports.asgi:application' --host=0.0.0.0 --port=8000

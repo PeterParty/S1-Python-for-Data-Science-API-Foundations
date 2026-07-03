@@ -27,7 +27,7 @@ Function requirement:
 }
 `
 ## Modul de creare a *python environment*
-`python -m venv .s1_venv`
+`python3.12 -m venv .s1_venv`
 
 ## Activare *envirenment*
 `.\.s1_venv\Scripts\activate`
@@ -44,3 +44,4 @@ Function requirement:
 # Bibliografie
 - [Building a Machine Learning API in 15 Minutes | Coding Challenge](https://www.youtube.com/watch?v=C82lT9cWQiA)
 - [Loan Approval Classification Dataset](https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data)
+- [Loan Default Prediction Dataset](https://www.kaggle.com/datasets/nikhil1e9/loan-default)

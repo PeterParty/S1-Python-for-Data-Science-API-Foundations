@@ -1,2 +1,7 @@
+.venv_py3.12
+.s1_venv
 __pycache__
-sample.json
+app.log
+# sample.json
+app/services/.ipynb_checkpoints
+.ipynb_checkpoints
