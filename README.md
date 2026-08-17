@@ -1,4 +1,4 @@
-# S1-Python for Data Science & API Foundations
+# Lesson 1-Python for Data Science & API Foundations
 
 ## Objectives
 - Build strong Python foundation
